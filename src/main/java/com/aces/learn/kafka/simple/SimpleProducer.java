@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.awsaces.learn.kafka;
+package com.aces.learn.kafka.simple;
 
 import java.util.Properties;
 
@@ -13,7 +13,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
  * @author aagarwal
  *
  */
-public class LearnKafka01 {
+public class SimpleProducer {
 	public static void main(String[] args) {
 		System.out.println("I am Learing Kafka");
 		 Properties props = new Properties();

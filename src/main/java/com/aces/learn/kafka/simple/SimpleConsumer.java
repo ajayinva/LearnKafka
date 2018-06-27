@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.awsaces.learn.kafka;
+package com.aces.learn.kafka.simple;
 
 import java.util.Arrays;
 import java.util.Properties;
@@ -13,7 +13,7 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
  * @author aagarwal
  *
  */
-public class LearnKafka02 {
+public class SimpleConsumer {
 	public static void main(String[] args) {
 		Properties props = new Properties();
 	     props.put("bootstrap.servers", "localhost:9092");
